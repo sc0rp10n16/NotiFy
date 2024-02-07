@@ -15,8 +15,10 @@ function createWindow(): void {
     title: 'NotiFy',
     frame: false,
     transparent: true,
+    backgroundMaterial: 'acrylic',
     vibrancy: 'under-window',
     visualEffectState: 'active',
+    opacity: 1,
     titleBarStyle: 'hidden',
     trafficLightPosition: { x: 15, y: 10 },
     webPreferences: {

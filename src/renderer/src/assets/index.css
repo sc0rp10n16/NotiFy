@@ -19,4 +19,10 @@
 
     @apply overflow-hidden;
   }
+  header {
+    -wenkit-app-region: drag;
+  }
+  button {
+    -wenkit-app-region: no-drag;
+  }
 }
